@@ -1,6 +1,10 @@
 # task1_html-css_RMGinternship
 
-site published at: task1-rmginternship.netlify.app
+site published at: 
+https://task1-rmginternship.netlify.app
+
+
+
 P.S. the site is not responsive so it needs to be viewed on a desktop size screen.
 '
 Video output:
