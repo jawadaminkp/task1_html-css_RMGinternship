@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-color: #044a53fb;
+    font-family: sans-serif;
+}
+
+.contact-box{
+    width: 500px;
+    background-color: #fff;
+    box-shadow: 0 0 20px 0 #999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+form{
+    margin: 35px;
+}
+
+.input-field{
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #777;
+    border-radius: 14px;
+}
+
+.textarea-field{
+    height: 150px;
+    padding-top: 15px;
+}
+
+.btn{
+    border-radius: 20px;
+    color: rgb(53, 40, 40);
+    padding: 23px;
+    background-color: #a0c5e7;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+    line-height: 6px;
+}
+
+.homebtn{
+    margin-left: 10px;
+    padding: 10px 10px;
+    background: #f6f6f679;
+    font-size: 16px;
+    text-decoration: none;
+    color: rgb(19, 45, 54);
+    border-radius: 10px;
+    transition: background 0.5s;
+}
+
+.homebtn:hover{
+    background: rgb(243, 239, 239);
+}

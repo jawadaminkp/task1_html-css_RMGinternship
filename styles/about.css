@@ -1,0 +1,86 @@
+/* google font imported*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+
+
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;   
+}
+
+body {
+    background: url('../images/aboutme.jpg');
+    background-position: 0 1000px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 48px;
+    margin-top: 51px;
+    text-align: center;
+}
+
+
+h1{
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 8px;
+    margin-bottom: 25px;
+}
+
+
+h2{
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.image {
+    margin-top: 38px;
+    margin-bottom: 38px;
+}
+
+
+p {
+    font-size: 20px;
+    color: white;
+    line-height: 20px;
+    margin-bottom: 40px;
+}
+
+.btn{
+    display: inline-block;
+    padding: 14px 40px;
+    background: #f6f6f6;
+    font-size: 27px;
+    text-decoration: none;
+    color: rgb(19, 45, 54);
+    border-radius: 10px;
+    transition: background 0.5s;
+
+}
+
+.btn:hover{
+    background: rgb(216, 196, 196);
+}
+
+
+.homebtn{
+    margin-left: 10px;
+    padding: 10px 10px;
+    background: #f6f6f679;
+    font-size: 16px;
+    text-decoration: none;
+    color: rgb(19, 45, 54);
+    border-radius: 10px;
+    transition: background 0.5s;
+}
+
+.homebtn:hover{
+    background: rgb(243, 239, 239);
+}
+
